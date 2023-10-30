@@ -1,0 +1,115 @@
+body{
+    cursor: none;
+}
+
+#title{
+    background-color: #adc43e;
+    color: #faf8f8;
+}
+  
+.container-fluid{
+    padding: 5% 15%;
+}
+
+.cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(3, 3, 3);
+}
+  
+.cursor-outline{
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(0, 0%, 3%, 0.837);
+}
+  
+.cursor-dot,.cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.detail-button {
+    border: 0;
+    background-color: #6f2eb9;
+    margin: 5% 3% 5% 0;
+}
+
+/*------------------------------------------image----------------------------------------------------*/
+.title-image {
+    width: 100%;
+}
+
+.jerky-image {
+    width: 60%;
+}
+
+.staydecoco-image {
+    width: 60%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    line-height: bold;
+    color: #2a2929;
+}
+  
+.nav-item {
+  padding: 0;
+}
+  
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    color: #2a2929;
+}
+  
+.navbar{
+    padding-bottom: 4.5rem;
+}
+  
+
+  
+h1 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: medium;
+}
+  
+#features {
+    padding: 7% 15%;
+}
+  
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+  
+h3 {
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+}
+  
+p {
+    font-family: 'Mitr', sans-serif;
+    color: #8f8f8f;
+}
+  
+.icon {
+    color: #3c3c3c;
+    margin-bottom: 1rem;
+}
+  
+.icon:hover {
+    color: #88a5d1;
+    cursor: none;
+}
+  
+  
